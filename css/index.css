@@ -1,0 +1,161 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid pink; */
+    background-color: #FFF;
+    max-width:1920px;
+    max-height: 130px;
+    align-items:center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    gap: 100px;
+
+}
+
+.nav-div-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav-div-container-2{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin-left: 100px;
+
+}
+
+.nav-img-containe{
+    width: 86.041px;
+    height: 40px;
+}
+
+.nav-div-container-gamer{
+    font-size: 2.812rem;
+}
+
+.nav-div-container-about{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-div-container-developer{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.nav-div-container-button{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* nav bar section over +++++++++++++++++++++++ */
+
+.goat-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.goat-div{
+    background-image: url(../images/Group-14.png) , linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+    /* border: 1px solid red; */
+    text-align: center;
+    gap: -100px;
+    margin: 100px;
+}
+
+.goat-play{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.goat-goat{
+    font-size: 95px;
+    font-weight: 800px;
+}
+
+.goat-section p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.goat-button-1{
+    border-radius: 48px;
+    color: #FFF;
+    background-color: #FF42A5;
+    width: 156px;
+    height: 65px;
+    border: none;
+}
+
+.goat-button-2{
+    border-radius: 48px;
+    color: #FFF;
+    background-color: #4EC5F7;
+    width: 156px;
+    height: 65px;
+    border: none;
+}
+
+.goat-section img{
+    width: 711px;
+}
+
+/* goat section over +++++++++++++++++++++++++++++++++++++++ */
+
+.we-are-gamer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    /* border: 2px solid red; */
+    margin-right: 50px;
+
+}
+
+.we-are-gamer-div{
+    text-align: right;
+}
+
+.we-are-gamer-img{
+    width: 868px;
+    height: 489px;
+}
+
+.we-are-gamer-container h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.we-are-gamer-p1{
+    color: #534C64;
+    width: 520px;
+    
+}
+
+.we-are-gamer-p2{
+    color: #534C64;
+    font-size: 24px;
+}
+
+.we-are-gamer-p3{
+    color: #534C64;
+    font-size: 32px;
+}

@@ -398,7 +398,7 @@ li{
     }
 
     .div-button-section{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         padding: 30px;
     }
 
@@ -413,6 +413,10 @@ li{
     }
     .div-terms ul{
         flex-direction: column;
+    }
+    .footer-p{
+        text-align: center;
+        padding: 100px;
     }
 }
 
@@ -481,5 +485,9 @@ li{
         }
         .div-terms ul{
             flex-direction: column;
+        }
+        .footer-p{
+            text-align: center;
+            padding: 100px;
         }
 }
